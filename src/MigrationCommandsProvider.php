@@ -1,6 +1,6 @@
 <?php
 
-namespace Evilcoders\CommandsMigration;
+namespace Stolentine\CommandsMigration;
 
 use Illuminate\Support\ServiceProvider;
 

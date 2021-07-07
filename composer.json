@@ -1,16 +1,16 @@
 {
-    "name": "evilcoders/commands-migration",
+    "name": "stolentine/commands-migration",
     "require": {},
     "require-dev": {},
     "autoload": {
         "psr-4": {
-            "Evilcoders\\CommandsMigration\\": "src"
+            "Stolentine\\CommandsMigration\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Evilcoders\\CommandsMigration\\MigrationCommandsProvider"
+                "Stolentine\\CommandsMigration\\MigrationCommandsProvider"
             ]
         }
     },
