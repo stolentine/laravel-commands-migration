@@ -1,0 +1,19 @@
+{
+    "name": "evilcoders/commands-migration",
+    "require": {},
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Evilcoders\\CommandsMigration\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Evilcoders\\CommandsMigration\\MigrationCommandsProvider"
+            ]
+        }
+    },
+    "description": "",
+    "type": "library"
+}
